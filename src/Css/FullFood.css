@@ -1,0 +1,29 @@
+.itemProduct{
+    
+    width: 75%;
+    border: 1px solid #ddd; /* Gray border */
+    border-radius: 4px; 
+    box-shadow: 2px 2px 10px #00000026; /* Rounded border */
+    /* padding: 5px; Some padding */
+    /* width: 150px; Set a small width */
+}
+.wrapperItem{
+    box-shadow: 2px 2px 10px #00000026;
+}
+@media only screen and  (max-width:600px) {
+    .itemProduct{
+        width: 100%;
+        border: 1px solid #ddd; /* Gray border */
+        border-radius: 10px;  /* Rounded border */
+        /* padding: 5px; Some padding */
+        /* width: 150px; Set a small width */
+    }
+}
+
+@media only screen and  (max-width:400px){
+    .itemProduct{
+        width: 115%;
+        border: 1px solid #ddd; /* Gray border */
+        border-radius: 10px;  /* Rounded border */
+    }
+}

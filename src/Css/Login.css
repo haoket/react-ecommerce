@@ -1,0 +1,40 @@
+
+.wrapperLogin{
+    width: 70%;
+    height:95%;
+    margin-top:10%;
+    padding:20px;
+    margin-left:10%;
+}
+.wrapperLoginAdmin{
+    width: 70%;
+    height:80%;
+    margin-top:10%;
+    padding:50px;
+    margin-left:20%;
+}
+label{
+    width: 100%;
+}
+input{
+    width:95%;
+    height:40px;
+    padding:10px;
+}
+.btnLogin{
+    width:95%;
+    margin-top:20px
+}
+@media (max-width: 980px) {
+    .hiddenlogo { display: none; }
+    .wrapperLogin{
+        width:80%   
+    }
+    .wrapperLoginAdmin{
+        width: 85%;
+        height:100%;
+        margin-top:20%;
+        padding:50px;
+        margin-left: 10%;
+    }
+}

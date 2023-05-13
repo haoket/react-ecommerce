@@ -1,0 +1,32 @@
+.imgd {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 300px;
+    height: 200px;
+    box-shadow: 3px 2px 1px #00000026;
+}
+
+.wrapper {
+    display: 'flex';
+    flex-direction: 'column';
+    padding-top: 30px;
+    padding-left: 30px;
+    height: auto;
+}
+
+.wrapperDetails {
+    box-shadow: 5px 3px 50px #00000026;
+    padding-left: 120px;
+
+}
+
+
+@media only screen and (max-width:400px) {
+    .imgd {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        width: 260px;
+        height: 200px;
+        box-shadow: 3px 2px 1px #00000026;
+    }
+}

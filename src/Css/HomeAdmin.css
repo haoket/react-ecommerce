@@ -1,0 +1,135 @@
+.itemadmin{
+    text-align: left;
+    width: 100%;
+    padding-top: 30px;
+  
+}
+.itemadmin.active{
+    font-size: 18px;
+    border-bottom:  3px solid rgb(255, 0, 0) ;
+}
+.trhoadon > td{
+    border-bottom: 1px solid black;
+
+}
+.trhoadon > td{
+    width: 10%;
+    text-align: center;
+    font-weight: bold;
+}
+.trdanhmuc > td{
+    border-bottom: 1px solid black;
+
+}
+.trdanhmuc > td{
+    width: 10%;
+    text-align: center;
+    font-weight: bold;
+}
+.trDetails{
+    height: 50px;
+    box-shadow: 0px 1px 5px #00000026;
+}
+.trDetails > td{
+    width: 10%;
+    text-align: center; 
+}
+/* .trDetails:hover{
+    background-color: rgba(156, 153, 153, 0.4);
+} */
+.tablehoadon{
+    width: 100%;
+}
+.tablehoadon > tr:nth-child(even){
+    background: rgb(238, 238, 238)
+}
+.tabledanhmuc > tr:nth-child(even){
+    background: rgb(238, 238, 238)
+}
+.btn-an{
+    display: none;
+}
+.navbar-admin{
+    display:block;
+}
+.bacham:hover{
+    background-color: rgba(0,0,0, 0.4);
+    border-radius:  10px;
+}
+
+.cardd{
+    padding:5px;
+    border:1px solid black;
+}
+.lableadd{
+    font-weight: bold;
+}
+.formadd{
+    padding: 30px;
+   
+}
+.cardStatis{
+    padding:20px;
+    box-shadow: 2px 2px 10px #00000026;
+    margin-bottom: 30px;
+}
+.carda{
+    border-left: 5px solid red;
+}
+.cardb{
+    border-left: 5px solid green;
+}
+.cardc{
+    border-left: 5px solid blue;
+}
+.carddd{
+    border-left: 5px solid yellow;
+}
+.editFood{
+    border:none;
+}
+.editFood:focus{
+    outline: none;
+}
+.Rbill{
+    padding-bottom: 5px;
+    padding-left: 25px;
+}
+.qs:hover{
+    color: red;
+}
+.chart1{
+    box-shadow: 2px 2px 10px #00000026;
+    border-radius:  10px;
+}
+.chart2{
+    box-shadow: 2px 2px 10px #00000026;
+    border-radius:  10px;
+    padding: 50px;
+}
+@media only screen and (max-width:780px) {
+   .navbar-admin{
+       display: none;
+       position: fixed;
+       width:70%;
+       z-index: 100;
+       left:0px;
+   }
+   .btn-an{
+        margin-top: 20px;
+        margin-left: 20px;
+        display: inline;
+        position:relative ;
+        left:0px;
+    }
+    .tablehoadon{
+        font-size: 12px;
+    }
+    .btnP{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height:60px;
+        text-align: center;
+    }
+}

@@ -1,0 +1,172 @@
+.body {
+  display: flex;
+  flex-direction: column;
+}
+
+.each-slide>div {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  height: 350px;
+
+}
+
+.each-slide span {
+  padding: 20px;
+  font-size: 25px;
+  background: transparent;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* font-weight: bold; */
+  font-size: 20px;
+  overflow: hidden;
+  /* background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-position: 50% 50%; */
+  font-family: "Open Sans Condensed", sans-serif;
+  position: relative;
+  /* background-image: url('../images/bg.jpg'); */
+}
+
+.bg-image {
+
+  /* Add the blur effect */
+  filter: blur(2px);
+  -webkit-filter: blur(2px);
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.banchay {
+
+  /* margin:15px; */
+  text-transform: none;
+  font-weight: bold;
+  font-size: 25px;
+  font-family: sans-serif;
+  padding-top: 30px;
+  text-align: center;
+}
+
+.mota {
+  font-size: 18px;
+  font-weight: 1000;
+  color: rgb(0, 0, 0);
+
+}
+
+.ban-chay {
+
+  width: 90%;
+  /* margin-right: 1%; */
+  margin-top: 30px;
+  background: rgba(241, 241, 241, 0.253);
+  border-radius: 10px;
+  box-shadow: 2px 2px 50px #00000026;
+  /* margin-right: 8%; */
+}
+
+.img-ban-chay {
+  margin-top: 20px;
+  /* box-shadow: 5px 2px 1px #00000026; */
+}
+
+.img-ban-chay:hover {
+  transform: scale(1.05, 1.05);
+  -webkit-transform: scale(1.05, 1.05);
+  -moz-transform: scale(1.05, 1.05);
+  -o-transform: scale(1.05, 1.05);
+  -ms-transform: scale(1.05, 1.05);
+  transition: 2s;
+}
+
+.content {
+  background-color: rgb(0, 0, 0);
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4);
+  /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 90%;
+  padding: 20px;
+  text-align: center;
+}
+
+.menu>p {
+  font-weight: bold;
+  font-style: italic;
+}
+
+.c:hover {
+  background-color: rgb(98, 143, 163);
+  border-radius: 15px;
+  transform: scale(2, 2);
+  -webkit-transform: scale(1.05, 1.05);
+  -moz-transform: scale(1.05, 1.05);
+  -o-transform: scale(1.05, 1.05);
+  -ms-transform: scale(1.05, 1.05);
+}
+
+.c {
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.imgc {
+  width: 100px;
+  height: 100px;
+}
+
+/* .col{
+      justify-content: center;
+      align-items: center;
+  } */
+html {
+  scroll-behavior: smooth;
+}
+
+@media only screen and (max-width:750px) {
+  .des {
+    display: none;
+  }
+
+  .content {
+    width: 100%;
+  }
+
+  .ban-chay {
+    margin-left: 10%;
+  }
+
+  .descrepInfor {
+    font-size: 12px;
+  }
+
+  .descrepInforimg {
+    width: 40px;
+    height: 40px;
+  }
+}

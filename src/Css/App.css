@@ -1,0 +1,80 @@
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.header-nav {
+  color: white;
+  font-weight: 700;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.arrowTop:hover {
+  background-color: white;
+}
+
+.arrowTop {
+  background-color: rgb(243, 144, 51);
+  /* Fallback color */
+  background-color: rgb(243, 144, 51);
+  /* Black w/opacity/see-through */
+  padding: 10px;
+  margin: 10px;
+  border-radius: 30px;
+}
+
+/* Animation */
+.UpDown-appear {
+  opacity: 0.01;
+
+}
+
+.UpDown-appear.UpDown-appear-active {
+  opacity: 1;
+  transition: opacity 1000ms ease-in;
+}
+
+.UpDown-leave.UpDown-leave-active {
+  opacity: 0.01;
+  transition: opacity 300ms ease-in;
+}
+
+
+/* Animation */
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media only screen and (max-width:990px) {
+  .logofoot {
+    width: 100%;
+    height: 300px;
+  }
+}
